@@ -14,6 +14,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
 
   body, html {
     height: 100%;
+    scroll-behavior: smooth;
   }
   
   * {
@@ -68,6 +69,26 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
     background-size: cover;
     
   }
+
+  .bg-image4 {
+    /* The image used */
+    background-image: url("c2.jpeg");
+  
+    /* Add the blur effect */
+    
+    /* Full height */
+    text-align: left;
+    height: 30%;
+    width: 413px;
+     margin-top: 75px;
+     padding: 0%;
+     margin-left: 0;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
   /* Position text in the middle of the page/image */
   .bg-text { 
     color: rgb(12, 34, 131);
@@ -82,7 +103,29 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
     text-align: center;
   }
 
-  
+  #contact_ul{
+    list-style: none;
+    -webkit-padding-start: 0px;
+    text-align: left;
+    padding-left: 15px;
+    }
+    
+    #li_phone ion-icon{
+    font-size: 1.0em;
+    vertical-align: middle;
+    margin-right: 10px;
+    padding-top: 9px;
+    text-align: left;
+    padding-left: 15px;
+    }
+    #li_email ion-icon{
+    font-size: 1.0em;
+    vertical-align: middle;
+    margin-right: 10px;
+    padding-top: 1px;
+    text-align: left;
+    padding-left: 15px;
+    }
  .col1{
   
    position: relative;

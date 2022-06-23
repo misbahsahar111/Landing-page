@@ -16,10 +16,10 @@
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+            <button type="button" class="btn btn-dark mb-3" onClick="document.getElementById('middle').scrollIntoView();">About</button>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <button type="button" class="btn btn-dark mb-3" onClick="document.getElementById('last').scrollIntoView();">Contact</button>
             </li>
           </ul>
         </div>
@@ -38,7 +38,7 @@
   <h4>Now you can buy any thing you want</h4>
   <p>just by one click so what are you waiting for</p>
   <br>
-  <button type="button" class="btn btn-dark mb-3">Buy Now</button>
+  <button type="button" class="btn btn-dark mb-3" onClick="document.getElementById('middle').scrollIntoView();">Buy Now</button>
 
 </div>
 <div class="col">
@@ -81,7 +81,7 @@
 
 <br><br>
 
-
+<div id="middle">
 <!-- About page -->
 <div class="container pl-75">
 <h1>About Us<h1>
@@ -134,8 +134,85 @@
 </center>
 
 <br><br>
+</div>
+<!-- Contact page -->
+<div id="last">
+<div class="container pl-75">
+<h1>Contact Us</h1>
+</div>
+<div class="rectangle"></div>
+<br><br>
+<center>
+<div class="container pl-65">
+<div class="card mb-3 shadow bg-white rounded" style="max-width: 1000px;">
+  <div class="row no-gutters">
+    <div class="col-5 gfg">
+    <br>
+    <h2>Contact Information</h2>
+    <p>Any question or query? just write us a message!</p>
+    <br>
+    <ul id="contact_ul">
+   <li id="li_phone"> <ion-icon name="call"><i class="fab fa-phone"></i></ion-icon>
+
+   <a>8077750432</a></li>
+   <br>
+    <li id="li_email"><ion-icon name="mail"><i class="fab fa-facebook-f"></i
+    ></ion-icon><a>skydevelopers.net@gmail.com</a></li>
+    <br>
+    <li id="li_email"><ion-icon name="mail"><i class="fab fa-facebook-f"></i
+    ></ion-icon><a>johar town lahore</a></li>
+ </ul>
+ <div class="bg-image4"></div>
+    </div>
+    <div class="col-7">
+      <div class="card-body">
+       
+      <form>
+      <div class="mb-3 text-start">
+        <label for="" class="form-label">User Name</label>
+        <input type="text" class="form-control" >
+        
+      </div>
+
+      <div class="mb-3 text-start">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+
+      <div class="mb-3 text-start">
+        <label for="" class="form-label">Phone</label>
+        <input type="text" class="form-control" >
+        
+      </div>
+      
+      <div class="mb-3 text-start">
+        <label for="comment" class="form-label">Message</label>
+        <textarea name="comment" form="usrform" class="form-control" rows="4">Enter text here...</textarea>
+        
+      </div>
+
+     
+      <button type="submit" class="btn btn-dark text-start">Submit</button>
+    </form>
 
 
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</center>
+
+<>
+
+
+
+
+
+
+
+<br><br>
 
 
 
